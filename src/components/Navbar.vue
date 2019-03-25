@@ -44,7 +44,6 @@ export default {
       let files = e.target.files
       let reader = new FileReader()
       reader.onload = e => {
-
         let {classes, bboxs} = JSON.parse(reader.result)
         console.log(classes)
         console.log(bboxs)
