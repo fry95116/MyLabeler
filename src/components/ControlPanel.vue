@@ -213,6 +213,16 @@ export default {
   margin-right: 6px;
 }
 
+.list .list-item .delete {
+  cursor: pointer;
+  /* margin: 8px; */
+}
+
+.list .list-item .delete:hover {
+  color: white;
+  /* margin: 8px; */
+}
+
 #bbox-list .name {
   flex-grow: 1;
 }
